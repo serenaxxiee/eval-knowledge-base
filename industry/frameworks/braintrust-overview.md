@@ -50,8 +50,29 @@ Braintrust is an AI observability and evaluation platform that connects producti
 ### MCP Integration
 Braintrust offers Model Context Protocol (MCP) support for IDE integration, allowing developers to interact with evaluation data directly from their development environment.
 
+## Recent Updates (2026)
+
+### Series B Funding (February 17, 2026)
+Braintrust raised **$80M in Series B funding** led by ICONIQ Capital, with participation from Andreessen Horowitz, Greylock, Elad Gil, and basecase capital. The company is positioning itself as core observability infrastructure for production AI, noting that "traces are now long-running, multi-step agents with tool calls and intermediate reasoning that capture massive volumes of data."
+
+### Temporal Integration (January 2026)
+Braintrust announced an integration with **Temporal** that combines durable workflow execution with LLM observability. The integration:
+- Automatically converts Temporal workflow and activity executions into Braintrust spans.
+- Enables prompt management through Braintrust UI with automatic pulling by workers.
+- Provides full trace hierarchy from client requests through all workflow steps.
+- Solves mid-execution failures, black-box prompt debugging, and slow iteration cycles.
+
+### EU Privacy and Compliance (March 2026)
+New support for EU privacy and compliance requirements as customers scale AI-powered products with complex data needs.
+
+### Notable Customers (Updated)
+Notion, Replit, Cloudflare, Ramp, Dropbox (in addition to previously listed Stripe, Vercel, Airtable, Instacart, Zapier, and Coda).
+
 ## Sources
 - [Braintrust Homepage](https://www.braintrust.dev)
 - [Braintrust Evaluation Docs](https://www.braintrust.dev/docs/evaluate)
 - [How to Eval: The Braintrust Way](https://www.braintrust.dev/articles/how-to-eval)
 - [Best AI Evals Tools for CI/CD](https://www.braintrust.dev/articles/best-ai-evals-tools-cicd-2025)
+- [Braintrust Series B Announcement](https://www.braintrust.dev/blog/announcing-series-b)
+- [Braintrust + Temporal Integration](https://www.braintrust.dev/blog/temporal-braintrust-integration)
+- [Braintrust EU Privacy and Compliance](https://www.braintrust.dev/blog/eu-privacy-compliance)

@@ -1,13 +1,13 @@
 ---
-title: PromptFoo - Open Source LLM Evaluation and Red Teaming
+title: PromptFoo - Open Source LLM Evaluation and Red Teaming (Acquired by OpenAI)
 source: https://github.com/promptfoo/promptfoo
 last_updated: 2026-03-17
 category: industry/frameworks
-tags: [promptfoo, open-source, evaluation-framework, red-teaming, testing, ci-cd]
+tags: [promptfoo, open-source, evaluation-framework, red-teaming, testing, ci-cd, openai-acquisition]
 ---
 
 ## TL;DR
-PromptFoo is an open-source CLI and library (~10.6k GitHub stars) for evaluating and red-teaming LLM applications -- supporting prompt testing, model comparison, automated scoring, and vulnerability scanning with full local execution and CI/CD integration.
+PromptFoo is an open-source CLI and library for evaluating and red-teaming LLM applications -- supporting prompt testing, model comparison, automated scoring, and vulnerability scanning. On March 9, 2026, OpenAI announced its acquisition of PromptFoo; the tool will remain open source and be integrated into OpenAI Frontier.
 
 ## Key Facts
 - **Open source**, local-first -- all data stays on your machine, no cloud dependency.
@@ -57,7 +57,22 @@ Tests are defined in YAML configuration files specifying prompts, providers, and
 | Managed platform | No | Yes | Yes | No |
 | Provider support | 50+ | Major providers | LangChain ecosystem | Major providers |
 
+## OpenAI Acquisition (March 9, 2026)
+
+On March 9, 2026, OpenAI announced the acquisition of PromptFoo. Key details:
+
+- **Scale at acquisition**: 350,000+ developers, 130,000 active monthly users, 25%+ of Fortune 500 companies as customers, 23-person team.
+- **Open source commitment**: PromptFoo will remain open source under the current license. OpenAI stated it will "continue to maintain the open-source suite as a best-in-class red teaming, static scanning, and evals tool for any AI model or application."
+- **Integration**: PromptFoo's technology will be integrated into **OpenAI Frontier**, OpenAI's platform for building and operating AI coworkers. Automated security testing and red-teaming will become native to Frontier.
+- **Multi-provider support preserved**: PromptFoo will continue supporting diverse providers and models.
+- **Rationale**: OpenAI cited the need to help "teams catch vulnerabilities early and ship secure AI from the start" as agents become more autonomous.
+
+This acquisition signals that AI security testing and evaluation is becoming a core platform capability rather than a standalone tool category.
+
 ## Sources
 - [GitHub: promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)
 - [PromptFoo Documentation](https://www.promptfoo.dev/docs/intro/)
 - [PromptFoo Red Teaming Guide](https://www.promptfoo.dev/docs/red-team/)
+- [PromptFoo is joining OpenAI (blog)](https://www.promptfoo.dev/blog/promptfoo-joining-openai/)
+- [OpenAI to acquire Promptfoo](https://openai.com/index/openai-to-acquire-promptfoo/)
+- [TechCrunch: OpenAI acquires Promptfoo](https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/)

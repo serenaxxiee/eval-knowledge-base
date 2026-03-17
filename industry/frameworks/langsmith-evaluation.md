@@ -58,10 +58,13 @@ LangSmith is LangChain's agent engineering platform providing end-to-end observa
 - AI-assisted prompt improvement via "Agent Polly."
 - Scale testing through dataset evaluation.
 
-### Recent Updates (2025)
-- **Insights Agent**: Monitors agents in production, automatically categorizes usage patterns.
+### Recent Updates (2025-2026)
+- **Insights Agent**: Monitors agents in production, automatically categorizes usage patterns. Now available for self-hosted LangSmith customers (January 2026).
 - **Multi-turn Evals**: Threads as first-class concept for evaluating complete agent conversations.
 - **Calibration**: LLM-as-judge evaluators can be calibrated against human feedback.
+- **Improved Experiment Comparison** (January 2026): Side-by-side LLM experiment comparison with filtering for inputs, outputs, status, and metadata -- "Spot regressions and improvements at a glance."
+- **AWS Marketplace Availability**: LangSmith now available directly in AWS Marketplace for centralized procurement and secure VPC deployment.
+- **Agent Builder Academy**: New course covering agent building, improvement, and advanced topics (Triggers, Subagents, MCP, Skills).
 
 ## Sources
 - [LangSmith Evaluation](https://www.langchain.com/langsmith/evaluation)

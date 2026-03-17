@@ -106,9 +106,20 @@ Two options:
 1. **Dictionary**: `{"subscription_id": "...", "resource_group_name": "...", "project_name": "..."}`
 2. **URL**: `"https://{resource_name}.services.ai.azure.com/api/projects/{project_name}"`
 
+## Recent Updates (March 2026)
+
+The latest release (March 11, 2026) includes:
+- **AOAI Graders credential support**: AOAI Graders now accept a "credential" parameter for authentication with AzureOpenAIModelConfiguration, enabling token-based auth instead of API keys.
+- **User-supplied tags in evaluate()**: The evaluate function now supports key-value tags for experiment tracking, A/B testing, filtering, and organizing evaluation runs.
+- **GroundednessEvaluator agent support**: Enhanced GroundednessEvaluator to support AI agent evaluation with tool calls -- enabling groundedness checks on agent workflows, not just simple Q&A.
+
+### Related: ai-agent-evals GitHub Action
+Microsoft also maintains a GitHub Action (`microsoft/ai-agent-evals`, currently v3-beta) for automated offline evaluation of Microsoft Foundry Agents in CI/CD pipelines. It supports agent evaluators, RAG evaluators, safety evaluators, OpenAI-based graders, and custom evaluators with statistical significance testing. See the dedicated file: `microsoft/azure-ai-eval-sdk/ai-agent-evals-github-action.md`.
+
 ## Sources
 - [Azure AI Evaluation SDK - Python API docs](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-evaluation-readme?view=azure-python)
 - [PyPI: azure-ai-evaluation](https://pypi.org/project/azure-ai-evaluation/)
 - [GitHub: azure-sdk-for-python evaluation](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/evaluation/azure-ai-evaluation)
 - [Local Evaluation with Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/evaluate-sdk)
 - [Azure AI Samples](https://github.com/Azure-Samples/azureai-samples/tree/main/scenarios/evaluate)
+- [GitHub: microsoft/ai-agent-evals](https://github.com/microsoft/ai-agent-evals)
